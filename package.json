@@ -7,19 +7,19 @@
     "test": "./node_modules/.bin/mocha -w",
     "knex": "knex",
     "heroku-postbuild": "knex migrate:latest",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ohendrick1223/ghost_rush.git"
+    "url": "git+https://github.com/gloomylumi/ghost_rush.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ohendrick1223/ghost_rush/issues"
+    "url": "https://github.com/gloomylumi/ghost_rush/issues"
   },
-  "homepage": "https://github.com/ohendrick1223/ghost_rush#readme",
+  "homepage": "https://github.com/gloomylumi/ghost_rush#readme",
   "dependencies": {
     "bcrypt": "^1.0.1",
     "bcrypt-as-promised": "^1.1.0",

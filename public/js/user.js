@@ -3,7 +3,7 @@ console.log("Getting to users.js");
 $('document').ready(function() {
     console.log("Let's explore!");
 
-    $.getJSON('/towns/')
+    $.getJSON('/user_town_lists/false')
         .done((town) => {
             var card = town;
             card.map(renderCardsWant);
@@ -39,7 +39,7 @@ $('document').ready(function() {
     }
 
     // ===javascript rendering for been there===
-    $.getJSON('/towns/2')
+    $.getJSON('/user_town_lists/true')
         .done((town) => {
             var card = town;
             card.map(renderCardsBeen);
